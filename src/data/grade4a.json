@@ -1,0 +1,142 @@
+{
+  "gradeTerm": "4a",
+  "gradeName": "四年级上册",
+  "units": [
+    {
+      "id": "4a-u1",
+      "name": "Unit 1",
+      "theme": "My Family（我的家庭）",
+      "order": 1,
+      "words": [
+        { "id": "4a-u1-w01", "english": "job", "chinese": "工作；职业", "order": 1 },
+        { "id": "4a-u1-w02", "english": "doctor", "chinese": "医生", "order": 2 },
+        { "id": "4a-u1-w03", "english": "farmer", "chinese": "农场主；农民", "order": 3 },
+        { "id": "4a-u1-w04", "english": "nurse", "chinese": "护士", "order": 4 },
+        { "id": "4a-u1-w05", "english": "worker", "chinese": "工人", "order": 5 },
+        { "id": "4a-u1-w06", "english": "cook", "chinese": "烹饪；厨师", "order": 6 },
+        { "id": "4a-u1-w07", "english": "sweep", "chinese": "打扫", "order": 7 },
+        { "id": "4a-u1-w08", "english": "floor", "chinese": "地板", "order": 8 },
+        { "id": "4a-u1-w09", "english": "together", "chinese": "一起", "order": 9 },
+        { "id": "4a-u1-w10", "english": "help", "chinese": "帮助", "order": 10 },
+        { "id": "4a-u1-w11", "english": "dad", "chinese": "爸爸", "order": 11 },
+        { "id": "4a-u1-w12", "english": "PE", "chinese": "体育（课）", "order": 12 }
+      ]
+    },
+    {
+      "id": "4a-u2",
+      "name": "Unit 2",
+      "theme": "My Friends（我的朋友）",
+      "order": 2,
+      "words": [
+        { "id": "4a-u2-w01", "english": "tall", "chinese": "高的", "order": 1 },
+        { "id": "4a-u2-w02", "english": "strong", "chinese": "强壮的", "order": 2 },
+        { "id": "4a-u2-w03", "english": "short", "chinese": "矮的；短的", "order": 3 },
+        { "id": "4a-u2-w04", "english": "hair", "chinese": "头发", "order": 4 },
+        { "id": "4a-u2-w05", "english": "kind", "chinese": "友善的", "order": 5 },
+        { "id": "4a-u2-w06", "english": "best", "chinese": "最好的", "order": 6 },
+        { "id": "4a-u2-w07", "english": "friend", "chinese": "朋友", "order": 7 },
+        { "id": "4a-u2-w08", "english": "often", "chinese": "经常", "order": 8 },
+        { "id": "4a-u2-w09", "english": "play", "chinese": "玩；玩耍", "order": 9 },
+        { "id": "4a-u2-w10", "english": "game", "chinese": "游戏", "order": 10 },
+        { "id": "4a-u2-w11", "english": "together", "chinese": "一起", "order": 11 },
+        { "id": "4a-u2-w12", "english": "football", "chinese": "足球", "order": 12 }
+      ]
+    },
+    {
+      "id": "4a-u3",
+      "name": "Unit 3",
+      "theme": "My Community（我的社区）",
+      "order": 3,
+      "words": [
+        { "id": "4a-u3-w01", "english": "community", "chinese": "社区", "order": 1 },
+        { "id": "4a-u3-w02", "english": "park", "chinese": "公园", "order": 2 },
+        { "id": "4a-u3-w03", "english": "hospital", "chinese": "医院", "order": 3 },
+        { "id": "4a-u3-w04", "english": "playground", "chinese": "操场", "order": 4 },
+        { "id": "4a-u3-w05", "english": "shop", "chinese": "商店", "order": 5 },
+        { "id": "4a-u3-w06", "english": "museum", "chinese": "博物馆", "order": 6 },
+        { "id": "4a-u3-w07", "english": "go shopping", "chinese": "去购物", "order": 7 },
+        { "id": "4a-u3-w08", "english": "see a doctor", "chinese": "看医生", "order": 8 },
+        { "id": "4a-u3-w09", "english": "there", "chinese": "那里", "order": 9 },
+        { "id": "4a-u3-w10", "english": "sport", "chinese": "运动", "order": 10 },
+        { "id": "4a-u3-w11", "english": "library", "chinese": "图书馆", "order": 11 },
+        { "id": "4a-u3-w12", "english": "supermarket", "chinese": "超市", "order": 12 }
+      ]
+    },
+    {
+      "id": "4a-u4",
+      "name": "Unit 4",
+      "theme": "Community Helpers（社区帮手）",
+      "order": 4,
+      "words": [
+        { "id": "4a-u4-w01", "english": "police officer", "chinese": "警察", "order": 1 },
+        { "id": "4a-u4-w02", "english": "cleaner", "chinese": "清洁工", "order": 2 },
+        { "id": "4a-u4-w03", "english": "firefighter", "chinese": "消防员", "order": 3 },
+        { "id": "4a-u4-w04", "english": "volunteer", "chinese": "志愿者", "order": 4 },
+        { "id": "4a-u4-w05", "english": "sing", "chinese": "唱（歌）", "order": 5 },
+        { "id": "4a-u4-w06", "english": "make the bed", "chinese": "整理床铺", "order": 6 },
+        { "id": "4a-u4-w07", "english": "clean", "chinese": "打扫；清洁", "order": 7 },
+        { "id": "4a-u4-w08", "english": "help", "chinese": "帮助", "order": 8 },
+        { "id": "4a-u4-w09", "english": "people", "chinese": "人们", "order": 9 },
+        { "id": "4a-u4-w10", "english": "busy", "chinese": "忙碌的", "order": 10 },
+        { "id": "4a-u4-w11", "english": "street", "chinese": "街道", "order": 11 },
+        { "id": "4a-u4-w12", "english": "safe", "chinese": "安全的", "order": 12 }
+      ]
+    },
+    {
+      "id": "4a-u5",
+      "name": "Unit 5",
+      "theme": "Weather（天气）",
+      "order": 5,
+      "words": [
+        { "id": "4a-u5-w01", "english": "weather", "chinese": "天气", "order": 1 },
+        { "id": "4a-u5-w02", "english": "sunny", "chinese": "晴朗的", "order": 2 },
+        { "id": "4a-u5-w03", "english": "warm", "chinese": "温暖的", "order": 3 },
+        { "id": "4a-u5-w04", "english": "cold", "chinese": "寒冷的", "order": 4 },
+        { "id": "4a-u5-w05", "english": "rainy", "chinese": "下雨的", "order": 5 },
+        { "id": "4a-u5-w06", "english": "cloudy", "chinese": "多云的", "order": 6 },
+        { "id": "4a-u5-w07", "english": "windy", "chinese": "有风的", "order": 7 },
+        { "id": "4a-u5-w08", "english": "snowy", "chinese": "下雪的", "order": 8 },
+        { "id": "4a-u5-w09", "english": "fly a kite", "chinese": "放风筝", "order": 9 },
+        { "id": "4a-u5-w10", "english": "basketball", "chinese": "篮球", "order": 10 },
+        { "id": "4a-u5-w11", "english": "Beijing", "chinese": "北京", "order": 11 },
+        { "id": "4a-u5-w12", "english": "outside", "chinese": "在外面", "order": 12 }
+      ]
+    },
+    {
+      "id": "4a-u6",
+      "name": "Unit 6",
+      "theme": "Seasons & Clothes（季节与衣物）",
+      "order": 6,
+      "words": [
+        { "id": "4a-u6-w01", "english": "season", "chinese": "季节", "order": 1 },
+        { "id": "4a-u6-w02", "english": "spring", "chinese": "春天", "order": 2 },
+        { "id": "4a-u6-w03", "english": "summer", "chinese": "夏天", "order": 3 },
+        { "id": "4a-u6-w04", "english": "autumn", "chinese": "秋天", "order": 4 },
+        { "id": "4a-u6-w05", "english": "winter", "chinese": "冬天", "order": 5 },
+        { "id": "4a-u6-w06", "english": "sweater", "chinese": "毛衣", "order": 6 },
+        { "id": "4a-u6-w07", "english": "dress", "chinese": "连衣裙", "order": 7 },
+        { "id": "4a-u6-w08", "english": "whose", "chinese": "谁的", "order": 8 },
+        { "id": "4a-u6-w09", "english": "mine", "chinese": "我的", "order": 9 },
+        { "id": "4a-u6-w10", "english": "snow", "chinese": "雪", "order": 10 },
+        { "id": "4a-u6-w11", "english": "which", "chinese": "哪一个", "order": 11 },
+        { "id": "4a-u6-w12", "english": "wear", "chinese": "穿；戴", "order": 12 }
+      ]
+    },
+    {
+      "id": "4a-review",
+      "name": "复习单元",
+      "theme": "Let's Help!（志愿活动）",
+      "order": 7,
+      "words": [
+        { "id": "4a-review-w01", "english": "help", "chinese": "帮助", "order": 1 },
+        { "id": "4a-review-w02", "english": "community", "chinese": "社区", "order": 2 },
+        { "id": "4a-review-w03", "english": "volunteer", "chinese": "志愿者", "order": 3 },
+        { "id": "4a-review-w04", "english": "clean", "chinese": "打扫", "order": 4 },
+        { "id": "4a-review-w05", "english": "plant", "chinese": "种植", "order": 5 },
+        { "id": "4a-review-w06", "english": "together", "chinese": "一起", "order": 6 },
+        { "id": "4a-review-w07", "english": "kind", "chinese": "友善的", "order": 7 },
+        { "id": "4a-review-w08", "english": "share", "chinese": "分享", "order": 8 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "gradeTerm": "4b",
+  "gradeName": "四年级下册",
+  "units": [
+    {
+      "id": "4b-u1",
+      "name": "Unit 1",
+      "theme": "Class Rules（课堂规则）",
+      "order": 1,
+      "words": [
+        { "id": "4b-u1-w01", "english": "rule", "chinese": "规则", "order": 1 },
+        { "id": "4b-u1-w02", "english": "class", "chinese": "课堂；班级", "order": 2 },
+        { "id": "4b-u1-w03", "english": "listen", "chinese": "听", "order": 3 },
+        { "id": "4b-u1-w04", "english": "quiet", "chinese": "安静的", "order": 4 },
+        { "id": "4b-u1-w05", "english": "raise", "chinese": "举起", "order": 5 },
+        { "id": "4b-u1-w06", "english": "hand", "chinese": "手", "order": 6 },
+        { "id": "4b-u1-w07", "english": "talk", "chinese": "说话", "order": 7 },
+        { "id": "4b-u1-w08", "english": "homework", "chinese": "家庭作业", "order": 8 },
+        { "id": "4b-u1-w09", "english": "finish", "chinese": "完成", "order": 9 },
+        { "id": "4b-u1-w10", "english": "polite", "chinese": "有礼貌的", "order": 10 },
+        { "id": "4b-u1-w11", "english": "follow", "chinese": "遵守", "order": 11 },
+        { "id": "4b-u1-w12", "english": "must", "chinese": "必须", "order": 12 }
+      ]
+    },
+    {
+      "id": "4b-u2",
+      "name": "Unit 2",
+      "theme": "Family Rules（家庭规则）",
+      "order": 2,
+      "words": [
+        { "id": "4b-u2-w01", "english": "family", "chinese": "家庭", "order": 1 },
+        { "id": "4b-u2-w02", "english": "tidy", "chinese": "整理", "order": 2 },
+        { "id": "4b-u2-w03", "english": "room", "chinese": "房间", "order": 3 },
+        { "id": "4b-u2-w04", "english": "wash", "chinese": "洗", "order": 4 },
+        { "id": "4b-u2-w05", "english": "kind", "chinese": "友善的", "order": 5 },
+        { "id": "4b-u2-w06", "english": "word", "chinese": "词语；话", "order": 6 },
+        { "id": "4b-u2-w07", "english": "early", "chinese": "早的", "order": 7 },
+        { "id": "4b-u2-w08", "english": "bed", "chinese": "床", "order": 8 },
+        { "id": "4b-u2-w09", "english": "screen", "chinese": "屏幕", "order": 9 },
+        { "id": "4b-u2-w10", "english": "time", "chinese": "时间", "order": 10 },
+        { "id": "4b-u2-w11", "english": "together", "chinese": "一起", "order": 11 },
+        { "id": "4b-u2-w12", "english": "respect", "chinese": "尊重", "order": 12 }
+      ]
+    },
+    {
+      "id": "4b-u3",
+      "name": "Unit 3",
+      "theme": "Time for School（上学时间）",
+      "order": 3,
+      "words": [
+        { "id": "4b-u3-w01", "english": "time", "chinese": "时间", "order": 1 },
+        { "id": "4b-u3-w02", "english": "clock", "chinese": "钟", "order": 2 },
+        { "id": "4b-u3-w03", "english": "morning", "chinese": "早上", "order": 3 },
+        { "id": "4b-u3-w04", "english": "afternoon", "chinese": "下午", "order": 4 },
+        { "id": "4b-u3-w05", "english": "evening", "chinese": "傍晚", "order": 5 },
+        { "id": "4b-u3-w06", "english": "late", "chinese": "迟到的", "order": 6 },
+        { "id": "4b-u3-w07", "english": "hurry", "chinese": "赶快", "order": 7 },
+        { "id": "4b-u3-w08", "english": "ready", "chinese": "准备好的", "order": 8 },
+        { "id": "4b-u3-w09", "english": "school", "chinese": "学校", "order": 9 },
+        { "id": "4b-u3-w10", "english": "pack", "chinese": "收拾", "order": 10 },
+        { "id": "4b-u3-w11", "english": "bag", "chinese": "书包", "order": 11 },
+        { "id": "4b-u3-w12", "english": "breakfast", "chinese": "早餐", "order": 12 }
+      ]
+    },
+    {
+      "id": "4b-u4",
+      "name": "Unit 4",
+      "theme": "Going Shopping（去购物）",
+      "order": 4,
+      "words": [
+        { "id": "4b-u4-w01", "english": "shop", "chinese": "商店", "order": 1 },
+        { "id": "4b-u4-w02", "english": "buy", "chinese": "买", "order": 2 },
+        { "id": "4b-u4-w03", "english": "price", "chinese": "价格", "order": 3 },
+        { "id": "4b-u4-w04", "english": "cheap", "chinese": "便宜的", "order": 4 },
+        { "id": "4b-u4-w05", "english": "expensive", "chinese": "昂贵的", "order": 5 },
+        { "id": "4b-u4-w06", "english": "money", "chinese": "钱", "order": 6 },
+        { "id": "4b-u4-w07", "english": "list", "chinese": "清单", "order": 7 },
+        { "id": "4b-u4-w08", "english": "need", "chinese": "需要", "order": 8 },
+        { "id": "4b-u4-w09", "english": "choose", "chinese": "选择", "order": 9 },
+        { "id": "4b-u4-w10", "english": "save", "chinese": "节省", "order": 10 },
+        { "id": "4b-u4-w11", "english": "spend", "chinese": "花费", "order": 11 },
+        { "id": "4b-u4-w12", "english": "compare", "chinese": "比较", "order": 12 }
+      ]
+    },
+    {
+      "id": "4b-u5",
+      "name": "Unit 5",
+      "theme": "Farms and Us（农场与我们）",
+      "order": 5,
+      "words": [
+        { "id": "4b-u5-w01", "english": "farm", "chinese": "农场", "order": 1 },
+        { "id": "4b-u5-w02", "english": "farmer", "chinese": "农民", "order": 2 },
+        { "id": "4b-u5-w03", "english": "horse", "chinese": "马", "order": 3 },
+        { "id": "4b-u5-w04", "english": "cow", "chinese": "奶牛", "order": 4 },
+        { "id": "4b-u5-w05", "english": "sheep", "chinese": "绵羊", "order": 5 },
+        { "id": "4b-u5-w06", "english": "hen", "chinese": "母鸡", "order": 6 },
+        { "id": "4b-u5-w07", "english": "animal", "chinese": "动物", "order": 7 },
+        { "id": "4b-u5-w08", "english": "grow", "chinese": "种植；生长", "order": 8 },
+        { "id": "4b-u5-w09", "english": "feed", "chinese": "喂养", "order": 9 },
+        { "id": "4b-u5-w10", "english": "fresh", "chinese": "新鲜的", "order": 10 },
+        { "id": "4b-u5-w11", "english": "egg", "chinese": "鸡蛋", "order": 11 },
+        { "id": "4b-u5-w12", "english": "milk", "chinese": "牛奶", "order": 12 }
+      ]
+    },
+    {
+      "id": "4b-u6",
+      "name": "Unit 6",
+      "theme": "From Farm to Table（从农场到餐桌）",
+      "order": 6,
+      "words": [
+        { "id": "4b-u6-w01", "english": "table", "chinese": "餐桌", "order": 1 },
+        { "id": "4b-u6-w02", "english": "food", "chinese": "食物", "order": 2 },
+        { "id": "4b-u6-w03", "english": "bread", "chinese": "面包", "order": 3 },
+        { "id": "4b-u6-w04", "english": "rice", "chinese": "米饭", "order": 4 },
+        { "id": "4b-u6-w05", "english": "vegetable", "chinese": "蔬菜", "order": 5 },
+        { "id": "4b-u6-w06", "english": "fruit", "chinese": "水果", "order": 6 },
+        { "id": "4b-u6-w07", "english": "healthy", "chinese": "健康的", "order": 7 },
+        { "id": "4b-u6-w08", "english": "delicious", "chinese": "美味的", "order": 8 },
+        { "id": "4b-u6-w09", "english": "meal", "chinese": "一餐", "order": 9 },
+        { "id": "4b-u6-w10", "english": "cook", "chinese": "烹饪", "order": 10 },
+        { "id": "4b-u6-w11", "english": "share", "chinese": "分享", "order": 11 },
+        { "id": "4b-u6-w12", "english": "enjoy", "chinese": "享受", "order": 12 }
+      ]
+    }
+  ]
+}
