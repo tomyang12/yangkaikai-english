@@ -15,6 +15,7 @@ const modes = [
   { key: 'listening', label: '听写模式', icon: '🎧', desc: '听发音写单词', color: 'from-purple-400 to-pink-500' },
   { key: 'choice', label: '选择题模式', icon: '🔤', desc: '看英文选中文', color: 'from-amber-400 to-orange-500' },
   { key: 'sentence', label: '句子填空', icon: '📝', desc: '补全句子学用法', color: 'from-cyan-400 to-sky-500' },
+  { key: 'test', label: '单元测试', icon: '🧪', desc: '听力·单选·判断·阅读，自动打分', color: 'from-violet-400 to-purple-600' },
   { key: 'challenge', label: '闯关测验', icon: '🏆', desc: '混合题型大挑战', color: 'from-rose-400 to-red-500' },
 ];
 

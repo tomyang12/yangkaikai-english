@@ -8,6 +8,7 @@ import Dictation from './pages/Dictation';
 import Listening from './pages/Listening';
 import Choice from './pages/Choice';
 import SentenceFill from './pages/SentenceFill';
+import UnitTest from './pages/UnitTest';
 import Challenge from './pages/Challenge';
 import ErrorBook from './pages/ErrorBook';
 import Report from './pages/Report';
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/:gradeTerm/:unitId/listening" element={<Listening />} />
           <Route path="/:gradeTerm/:unitId/choice" element={<Choice />} />
           <Route path="/:gradeTerm/:unitId/sentence" element={<SentenceFill />} />
+          <Route path="/:gradeTerm/:unitId/test" element={<UnitTest />} />
           <Route path="/:gradeTerm/:unitId/challenge" element={<Challenge />} />
           <Route path="/error-book" element={<ErrorBook />} />
           <Route path="/report" element={<Report />} />
