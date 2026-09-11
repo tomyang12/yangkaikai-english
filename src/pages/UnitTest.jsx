@@ -20,12 +20,6 @@ const SECTIONS = [
 
 const TOTAL = SECTIONS.reduce((s, x) => s + x.count * x.per, 0); // 100
 
-// 从词池中抽 n 个不同的词（池不够时允许跨组复用，但同组内不重复）
-function pickWords(pool, n) {
-  const shuffled = shuffle(pool);
-  return shuffled.slice(0, Math.min(n, shuffled.length));
-}
-
 // 干扰项：优先同单元，不够时从备用池补
 function distract(correct, pool, toText, backup = []) {
   const opts = new Set([correct]);
@@ -43,15 +37,26 @@ function distract(correct, pool, toText, backup = []) {
   return shuffle([...opts]);
 }
 
-// 组卷：听力 + 单选 + 判断 + 阅读
+// 组卷：听力 + 单选 + 判断 + 阅读（每次组卷完全随机）
 function buildPaper(words, reading, allWordsBackup) {
   const qs = [];
   const en = w => w.english;
   const cn = w => w.chinese;
 
+  // 统一随机抽词：三大题依次从洗牌队列取词，尽量互不重叠（词少时才循环复用）
+  const shuffled = shuffle(words);
+  let cursor = 0;
+  const take = (n) => {
+    const out = [];
+    while (out.length < n && shuffled.length > 0) {
+      if (cursor >= shuffled.length) cursor = 0;
+      out.push(shuffled[cursor++]);
+    }
+    return out;
+  };
+
   // 一、听力：听单词选中文（不显示拼写）
-  const listenWords = pickWords(words, SECTIONS[0].count);
-  listenWords.forEach((w) => {
+  take(SECTIONS[0].count).forEach((w) => {
     qs.push({
       type: 'listening', word: w,
       prompt: '🎧 听发音，选出它的中文意思',
@@ -61,10 +66,9 @@ function buildPaper(words, reading, allWordsBackup) {
     });
   });
 
-  // 二、单选：英选汉 / 汉选英 交替
-  const choiceWords = pickWords(words, SECTIONS[1].count);
-  choiceWords.forEach((w, i) => {
-    const en2cn = i % 2 === 0;
+  // 二、单选：英选汉 / 汉选英 每题随机
+  take(SECTIONS[1].count).forEach((w) => {
+    const en2cn = Math.random() < 0.5;
     qs.push({
       type: 'choice', word: w,
       prompt: en2cn ? w.english : w.chinese,
@@ -76,22 +80,24 @@ function buildPaper(words, reading, allWordsBackup) {
     });
   });
 
-  // 三、判断：一半正确搭配、一半错误搭配
-  const judgeWords = pickWords(words, SECTIONS[2].count);
+  // 三、判断：对错搭配随机分布（约一半错配，且错配词随机）
+  const judgeWords = take(SECTIONS[2].count);
+  const wrongSlots = new Set(shuffle(judgeWords.map((_, i) => i)).slice(0, Math.floor(judgeWords.length / 2)));
   judgeWords.forEach((w, i) => {
-    const other = words.find(x => x.id !== w.id && x.chinese !== w.chinese);
-    const isRight = i % 2 === 0 || !other; // 词池无其他词时强制正确搭配
-    const shown = isRight ? w.chinese : other.chinese;
+    const others = words.filter(x => x.id !== w.id && x.chinese !== w.chinese);
+    const wantWrong = wrongSlots.has(i) && others.length > 0;
+    const other = others.length > 0 ? others[Math.floor(Math.random() * others.length)] : null;
+    const shown = wantWrong ? other.chinese : w.chinese;
     qs.push({
       type: 'judge', word: w,
       prompt: w.english,
       shownChinese: shown,
-      options: ['✓ 相符', '✗ 不相符'],
-      answer: isRight ? '✓ 相符' : '✗ 不相符',
+      options: shuffle(['✓ 相符', '✗ 不相符']),
+      answer: wantWrong ? '✗ 不相符' : '✓ 相符',
     });
   });
 
-  // 四、阅读理解
+  // 四、阅读理解（短文为本单元固定篇章，选项顺序随机）
   reading?.questions?.forEach((q) => {
     qs.push({
       type: 'reading', word: null,
